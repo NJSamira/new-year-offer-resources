@@ -13,6 +13,7 @@
     background-size: cover;
     background-blend-mode: overlay;
     border-radius: 16px;
+    margin-top: 80px;
 }
 .header-container h1{
     width: 630px;
@@ -99,4 +100,59 @@
     max-width: 802.9px;
     height: 500px;
     margin-top: -25px;
+}
+
+/* midnight party section starts here */
+
+.second-main-section{
+    max-width: 1320px;
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    /* background-color: rgba(0,0,0,0.4); */
+    background-image: linear-gradient(90.00deg, rgb(12, 4, 29),rgba(7, 2, 17, 0) 100%),url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    /* background-blend-mode: overlay; */
+
+}
+.midnight-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-content{
+    margin-left: 126px;
+}
+.second-main-section h2{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 124px;
+    margin-bottom: 22px;
+}
+.second-main-section p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 39px;
+    text-align: left;
+    /* margin-top: -160px; */
+}
+.btn-text{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.midnight-img{
+    width: 349.16px;
+    height: 464.65px;
+    margin-top: 68px;
+    margin-right: 105px;
 }
